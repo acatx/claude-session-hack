@@ -3,7 +3,7 @@ name: Claude Session Trigger
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'   # UTC — alle 4:00 (le 6:00 in Italia in estate, 5:00 in inverno)
+    - cron: '0 3 * * *'   # UTC — alle 4:00 (le 6:00 in Italia in estate, 5:00 in inverno)
     
 permissions:
   id-token: write
